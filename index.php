@@ -8,8 +8,6 @@
         body { font-family: 'Segoe UI', sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
         .container { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); text-align: center; width: 350px; }
         h1 { margin-bottom: 20px; color: #333; }
-        
-        
         .btn-utama {
             display: block;
             background-color: #007bff !important;
@@ -21,14 +19,14 @@
             font-weight: bold;
             transition: 0.3s;
         }
-        .btn-utama:hover { background-color: #0056b3 !important; }
+        .btn-utama:hover { background-color: #0056b3 !important; transform: translateY(-2px); }
         footer { margin-top: 20px; font-size: 12px; color: #888; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Manajemen Siswa</h1>
-        <p>Pilih menu tujuan:</p>
+        <p>Selamat datang! Pilih menu tujuan:</p>
         <a href="auth/login.php" class="btn-utama">Masuk (Login)</a>
         <a href="dashboard/index.php" class="btn-utama">Dashboard</a>
         <a href="todo/index.php" class="btn-utama">Daftar Tugas</a>
