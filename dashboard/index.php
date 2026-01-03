@@ -77,7 +77,7 @@ while ($s = mysqli_fetch_assoc($data)):
 <td><?= htmlspecialchars($s['kelas']) ?></td>
 <td>
 <a href="siswa_edit.php?id=<?= $s['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
-<a href="delete.php?id=<?= $s['id'] ?>"
+<a href="siswa_delete.php?id=<?= $s['id'] ?>"
    onclick="return confirm('Hapus data?')"
    class="btn btn-danger btn-sm">Hapus</a>
 </td>
